@@ -1,3 +1,14 @@
+lua require('plugins')
+lua require('ts')
+lua require('statusline')
+lua require('keymaps')
+lua require("mason").setup()
+lua require('lsp')
+colorscheme everforest
+set termguicolors
+highlight Normal guibg=none
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+set guicursor=n-v-c-i:block
 set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
